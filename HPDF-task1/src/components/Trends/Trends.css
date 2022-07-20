@@ -1,0 +1,46 @@
+.Trends {
+  width: 260px;
+  /* height: 450px; */
+  border: 1px solid #e6ecf0;
+  text-align: left;
+  background-color: #fff;
+  background-clip: inherit;
+  border: 1px solid #e6ecf0;
+  line-height: inherit;
+  padding: 15px 14px 15px 14px;
+}
+
+.Trends .trend-item {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 7px;
+  word-wrap: break-word;
+}
+
+.context-trend-item {
+  display: block;
+  line-height: 17px;
+  margin-bottom: 10px;
+}
+
+.trend-item .trend-name {
+  font-size: 14px;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+
+.trend-name {
+  font-weight: bold;
+  color: #4a913c;
+}
+
+.trend-item-stats {
+  color: #657786;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.flex-module.trend-container {
+  border: none;
+  padding: 0;
+}

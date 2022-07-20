@@ -1,0 +1,47 @@
+.module {
+  text-align: left;
+}
+
+.wtf-module {
+  display: block;
+}
+
+.wtf-module h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #14171a;
+  display: inline;
+}
+
+.dashboard-right .module .flex-module {
+  background-color: #fff;
+  border: 1px solid #e6ecf0;
+  margin-bottom: 0;
+  padding: 15px;
+  line-height: 16px;
+}
+
+.module::after {
+  contain: " ";
+  display: table;
+}
+
+/* Recomendation List */
+
+.flex-module > .user-recommendations :not(:first-child) {
+  margin-top: 10px;
+}
+
+.user-recommendations {
+  transition: all 0.15s ease-in-out;
+}
+
+.flex-module-inner {
+  color: #657786;
+  font-size: 12px;
+}
+
+.UserSmallListItem:last-child {
+  padding-bottom: 0px;
+  border-bottom: none;
+}

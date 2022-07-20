@@ -1,0 +1,240 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  position: relative;
+}
+
+/* General */
+
+a {
+  text-decoration: none;
+  color: #4a913c;
+}
+
+b {
+  font-weight: normal;
+}
+
+h3 {
+  line-height: 22px;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+}
+
+ol,
+ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  text-align: inherit;
+}
+
+button {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  transition: box-shadow 0.15s ease-in-out;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  outline: none;
+  cursor: inherit;
+}
+
+small {
+  font-size: 12px;
+  color: #4a913c;
+}
+
+.middot {
+  font-size: 12px;
+}
+
+/* u-props */
+
+.u-dir[dir="ltr"] {
+  direction: ltr !important;
+  text-align: left !important;
+  unicode-bidi: embed;
+}
+
+.u-block {
+  display: block;
+}
+
+.u-inlineBlock {
+  display: inline-block !important;
+  max-width: 100%;
+}
+
+.u-table {
+  display: table;
+}
+
+.u-textInheritColor {
+  color: inherit;
+}
+
+.u-textUserColor {
+  color: #4a913c;
+}
+
+.u-hiddenVisually {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  font-size: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+}
+
+.u-clearOutline {
+  outline: none;
+}
+
+.u-table {
+  display: table;
+}
+
+.u-tableCell {
+  display: table-cell;
+}
+
+.u-alignMiddle {
+  vertical-align: middle;
+}
+
+.u-size32 {
+  width: 32px !important;
+  height: 32px !important;
+}
+
+.u-borderRadiusInherit {
+  border-radius: inherit !important;
+}
+
+.u-btn-link {
+  color: #4a913c;
+  font-size: 12px;
+  padding: 0;
+  background-color: transparent;
+  background-image: none;
+  border: 0;
+  cursor: pointer;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/* Icon Font */
+
+@font-face {
+  font-family: "edgeicons";
+  src: url("./assets/font/edge-icons-Regular.woff") format("woff");
+}
+
+/* Icons */
+
+.IconContainer {
+  display: inline-block;
+  line-height: 0;
+  position: relative;
+  vertical-align: middle;
+}
+
+.Icon {
+  background: transparent;
+  display: inline-block;
+  font-style: normal;
+  vertical-align: baseline;
+  position: relative;
+  font-family: "edgeicons";
+}
+
+.Icon--small {
+  font-size: 16px;
+  line-height: 15px;
+}
+
+.Icon--medium {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.Icon::after {
+  display: block;
+  font-family: "edgeicons";
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Icon--close::before {
+  content: "\f045";
+}
+
+.Icon--people:before {
+  content: "\f178";
+}
+
+.Icon--promotedStroked:before {
+  content: "\f504";
+}
+
+.Icon--verified:after {
+  content: "\f099";
+}
+
+.Icon--caretDownLight:before {
+  content: "\f196";
+}
+
+.Icon--reply:before {
+  content: "\f151";
+}
+
+.Icon--retweet:before {
+  content: "\f152";
+}
+
+.Icon--heart:before {
+  content: "\f148";
+}
+
+.Icon--dm:before {
+  content: "\f054";
+}
+
+.Icon--media:before {
+  content: "\f109";
+}
+
+/* Flex */
+
+.module {
+  border: 0;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.flex-module {
+  background-color: inherit;
+  border: 0;
+  line-height: inherit;
+  padding: 0;
+}
+
+.flex-module-header {
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+
+.flex-module-header h3 {
+  color: #14171a;
+  display: inline;
+  font-size: 18px;
+  font-weight: bold;
+}
